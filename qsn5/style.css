@@ -1,3 +1,10 @@
+#rootset{
+    display: flex;
+    flex-direction: row;
+    flex-basis: content;
+    width: fit-content;
+}
+
 
 #ulRoot{
     list-style: disc;
