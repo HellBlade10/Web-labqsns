@@ -3,8 +3,101 @@
   <head>
     <title>Lab qsn submission</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        background-color: black;
+        color: white;
+      }
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+}
+a{
+  width: 10px;
+  height: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+  transition: background-color 1s ease-in-out;
+}
+a:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown li {
+    list-style: none;
+    position: relative; 
+    padding: 10px;
+}
+
+.dropdown .link {
+    filter: blur(0);
+    transition: filter 0.4s ease-in-out;
+}
+
+
+.dropdown:hover .link {
+    filter: blur(2px);
+}
+
+
+.dropdown .link:hover {
+    filter: blur(0);
+    background-color: black;
+    color: white;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: -10px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    padding: 5px;
+    transition: 1.5s ease-in-out;
+}
+
+.dropdown li:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+#span{
+  color: white;
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+#span:hover{
+  background-color: white;
+  color: black;
+}
+
+    </style>
   </head>
   <body>
     <h1>Lab questions published to make it easy to view.</h1>
+    <ul class="dropdown">
+      <li>
+          <a href="#">Qsns</a>
+          <ul class="dropdown-content">
+              <li><a href="qsn4/index.html" class="link">Qsn4</a></li>
+              <li><a href="qsn5/index.html" class="link">Qsn5</a></li>
+              <li><a href="qsn10/index.html" class="link">Qsn10</a></li>
+              <li><a href="qsn15/index.html" class="link">Qsn15</a></li>
+          </ul>
+      </li>
+      <li><a href="#">Images</a></li>
+  </ul>  
+    <h1>Github source \_||_/</h1>
+    <span>
+      <a id="span" href="https://HellBlade10/Web-labqsns">https://HellBlade10/Web-labqsns</a></span>
   </body>
 </html>
