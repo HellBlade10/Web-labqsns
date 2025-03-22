@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>CSS -> Cascading Stylesheet</h1>
+    <hr>
+    <h2>What is CSS?</h2>
+    <p>Document ending with *.css extension or used by declaring a &lt;style&gt; tag whether inside the html file or inside a line to style it and make it look better is called css.</p>
+    <h3>Types of CSS: </h3>
+    <ul>
+    <li><a href="">External Css</a></li>
+    <li><a href="">Internal Css</a></li>
+    <li><a href="#">Inline Css</a></li>
+</ul>
+<fieldset>
+    <legend>Codes</legend>
+    <fieldset>
+        <legend>Inline</legend>
+        <code>
+            #Head part ...<br>
+            #body part --
+            <p style="color:blue;">&lt;p style="color:blue;"&gt; This is a inline styling &lt;/p&gt;</p>
+        </code>
+    </fieldset>
+    <fieldset>
+        <legend>Internal</legend>
+        <code>
+            <style>
+                #span1{
+                    color: red;
+                }
+                #span2{
+                    font-size: 2.3rem;
+                }
+            </style>
+            #Head part ...<br>
+            #body part --<p>
+            &lt;style&gt;<br>
+            #span1{<br>
+                &nbsp;color: red;<br>
+            } <br>
+            #span2{<br>
+                &nbsp;font-size: 1rem;<br>
+            }<br>
+            &lt;style&gt;<br>
+            &lt;p&gt;<br>
+                <span id="span1">This is how color changes from internal css.</span><br>
+                <span id="span2">And this is for font.</span><br>
+            &lt;/p&gt;
+        </p>
+        </code>
+    </fieldset>
+    <fieldset>
+        <legend>External</legend>
+        <code>
+            #Head part --<br>
+            &lt;link rel="stylesheet" href="style.css"/&gt;<br>
+            #body part --<br>
+            &lt;p&gt;<br>
+            <span id="spanned">This was styled using a external css. Same as the external css file used to style this whole page itself.<br></span>&lt;/p&gt;
+        </code>
+        </fieldset>
+</fieldset>
+<p>Css is usually written in external file to maintain the readability of html code and any linking of external css or the declaration of &lt;style&gt; tag is usually done inside the &lt;head&gt; tag since it is a good practice to do so.</p>
+</body>
+</html>
