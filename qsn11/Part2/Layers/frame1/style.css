@@ -1,0 +1,8 @@
+body{
+    color: green;
+    background-color: #cedfef;
+    font-size: xx-large;
+}
+ol{
+    list-style-type: decimal;
+}
