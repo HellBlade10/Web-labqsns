@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+*{
+    font-size: 0.6cm;
+}
+.input {
+    width: 70dvw;
+    border: 1px solid gold;
+}
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: start;
+    color: red;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset {
+    border: 2px solid #020202;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    color: #02070c;
+    text-align: center;
+    width: auto;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: small;
+    margin-bottom: 5px;
+}
+
+textarea,
+select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    box-sizing: border-box;
+}
+textarea {
+    resize: none;
+    border: 1px solid gold;
+    padding: 1rem;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+}
+
+.register {
+    background-color: navy;
+    color: #fff;
+}
+
+.clear {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+label[for="image"] {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.data {
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid grey;
+}
+
+input {
+    padding: 0rem;
+}
+@media (max-width: 756px){
+    *{
+        font-size: 1rem;
+    }
+    body{
+        width: 100vw;
+    }
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+    transform: translateY(5px);
+}

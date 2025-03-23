@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <div class="data">
+                        <label for="name">Name</label>
+                        <input class="input" type="text" id="name" name="name" placeholder="Enter Name"/>
+                    </div>
+                    <div class="data">
+                        <label for="address">Address</label>
+                        <input class="inputc" type="text" id="address" name="address" placeholder="Enter Address"/>
+                    </div>
+                    <div class="data">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="input" id="phone" name="phone" placeholder="Enter Phone"/>
+                    </div>
+                    <div class="data">
+                        <label for="gender">Gender</label>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male"/>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female"/>
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="">Select Country</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" disabled></textarea>
+                    </div>
+                    <div class="data">
+                        <label for="image">Image</label>
+                        <input type="file" id="image" name="image" />
+                    </div>
+                    <div class="data">
+                        <label>
+                            <input type="checkbox" name="terms" id="checkbox"/> I Accept
+                            Terms & Conditions
+                        </label>
+                    </div>
+                    <div class="buttons data">
+                        <button type="submit" class="register">Register</button>
+                        <button type="reset" class="clear">Clear</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
