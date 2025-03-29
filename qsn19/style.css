@@ -26,7 +26,6 @@ h1 {
     display: flex;
     gap: 10px;
 }
-
 .form-box {
     width: 400px;
     background: rgba(0, 0, 0, 0.7);

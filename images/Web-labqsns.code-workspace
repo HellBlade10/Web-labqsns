@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Web-labqsns",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
